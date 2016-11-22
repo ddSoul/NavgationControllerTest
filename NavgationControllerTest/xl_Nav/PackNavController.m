@@ -6,16 +6,16 @@
 //  Copyright © 2016年 dxl. All rights reserved.
 //
 
-#import "xl_packNavController.h"
+#import "PackNavController.h"
 #import "UIViewController+Category.h"
-#import "xl_NavgationController.h"
-#import "xl_PackViewController.h"
+#import "XLNavgationController.h"
+#import "PackViewController.h"
 
-@interface xl_packNavController ()
+@interface PackNavController ()
 
 @end
 
-@implementation xl_packNavController
+@implementation PackNavController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,7 @@
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
     // 注意, 这里压入的是一个包装过后的控制器
-    xl_PackViewController *packViewController = [[xl_PackViewController new] packViewController:viewController];
+    PackViewController *packViewController = [[PackViewController new] packViewController:viewController];
     [self.navigationController pushViewController:packViewController animated:animated];
 }
 

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "xl_NavgationController.h"
+#import "XLNavgationController.h"
 
 @interface UIViewController (Category)
 
 //主控制器
-@property (nonatomic, strong) xl_NavgationController *xl_navgationController;
+@property (nonatomic, strong) XLNavgationController *xl_navgationController;
 
 @end

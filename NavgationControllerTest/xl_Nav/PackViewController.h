@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface xl_PackViewController : UIViewController
+@interface PackViewController : UIViewController
 
 //对push过来的viewController进行包装，包装后变成带有Nav的控制器
--(xl_PackViewController *)packViewController:(UIViewController *)viewController;
+-(PackViewController *)packViewController:(UIViewController *)viewController;
 
 @end

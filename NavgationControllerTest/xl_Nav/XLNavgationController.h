@@ -1,5 +1,5 @@
 //
-//  xl_packNavController.h
+//  xl_NavgationController.h
 //  NavgationControllerTest
 //
 //  Created by ddSoul on 16/11/22.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface xl_packNavController : UINavigationController
+//使用的类
+@interface XLNavgationController : UINavigationController
+
 
 @end

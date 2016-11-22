@@ -6,23 +6,23 @@
 //  Copyright © 2016年 dxl. All rights reserved.
 //
 
-#import "xl_NavgationController.h"
+#import "XLNavgationController.h"
 #import "UIViewController+Category.h"
-#import "xl_PackViewController.h"
+#import "PackViewController.h"
 
-@interface xl_NavgationController ()<UIGestureRecognizerDelegate>
+@interface XLNavgationController ()<UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIPanGestureRecognizer *xl_popGestureRecognizer;
 
 @end
 
-@implementation xl_NavgationController
+@implementation XLNavgationController
 
 -(instancetype)initWithRootViewController:(UIViewController *)rootViewController{
     self = [super initWithRootViewController:rootViewController];
     if (self) {
         rootViewController.xl_navgationController = self;
-        self.viewControllers = @[[[[xl_PackViewController alloc] init] packViewController:rootViewController]];
+        self.viewControllers = @[[[[PackViewController alloc] init] packViewController:rootViewController]];
     }
     return self;
 }

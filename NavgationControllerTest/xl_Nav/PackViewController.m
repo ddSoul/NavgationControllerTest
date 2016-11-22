@@ -6,18 +6,18 @@
 //  Copyright © 2016年 dxl. All rights reserved.
 //
 
-#import "xl_PackViewController.h"
-#import "xl_packNavController.h"
+#import "PackViewController.h"
+#import "PackNavController.h"
 #import "UIViewController+Category.h"
 
-@interface xl_PackViewController ()
+@interface PackViewController ()
 
 //传递过来包装了Vc的Nav
-@property(nonatomic, strong)xl_packNavController *packNav;
+@property(nonatomic, strong)PackNavController *packNav;
 
 @end
 
-@implementation xl_PackViewController
+@implementation PackViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,9 +32,9 @@
 }
 
 //包装过程
--(xl_PackViewController *)packViewController:(UIViewController *)viewController
+-(PackViewController *)packViewController:(UIViewController *)viewController
 {
-    xl_packNavController *packNav = [[xl_packNavController alloc] init];
+    PackNavController *packNav = [[PackNavController alloc] init];
 
     packNav.viewControllers = @[viewController];
     

@@ -13,11 +13,11 @@ static char *KNav = "xl_navgationController";
 
 @implementation UIViewController (Category)
 
-- (void)setXl_navgationController:(xl_NavgationController *)xl_navgationController
+- (void)setXl_navgationController:(XLNavgationController *)xl_navgationController
 {
     objc_setAssociatedObject(self, &KNav, xl_navgationController, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
-- (xl_NavgationController *)xl_navgationController
+- (XLNavgationController *)xl_navgationController
 {
     return objc_getAssociatedObject(self, &KNav);
 }
