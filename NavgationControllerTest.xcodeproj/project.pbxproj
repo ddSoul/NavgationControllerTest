@@ -20,6 +20,8 @@
 		7B3BBDA51DE43779004F9FB2 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBDA41DE43779004F9FB2 /* NextViewController.m */; };
 		7B3BBDA81DE43909004F9FB2 /* PackNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBDA71DE43909004F9FB2 /* PackNavController.m */; };
 		7B3BBDAB1DE43D9E004F9FB2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBDAA1DE43D9E004F9FB2 /* ThirdViewController.m */; };
+		7B5C67C11DE59EBE00D29334 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C67C01DE59EBE00D29334 /* index.html */; };
+		7B5C67C41DE5A27F00D29334 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5C67C31DE5A27F00D29334 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		7B3BBDA71DE43909004F9FB2 /* PackNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackNavController.m; sourceTree = "<group>"; };
 		7B3BBDA91DE43D9E004F9FB2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		7B3BBDAA1DE43D9E004F9FB2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7B5C67C01DE59EBE00D29334 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		7B5C67C31DE5A27F00D29334 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5C67C41DE5A27F00D29334 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +107,7 @@
 				7B3BBD731DE42E23004F9FB2 /* NavgationControllerTestTests */,
 				7B3BBD7E1DE42E23004F9FB2 /* NavgationControllerTestUITests */,
 				7B3BBD581DE42E23004F9FB2 /* Products */,
+				7B5C67C21DE5A27F00D29334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +171,7 @@
 		7B3BBD901DE42FA4004F9FB2 /* xl_Nav */ = {
 			isa = PBXGroup;
 			children = (
+				7B5C67C01DE59EBE00D29334 /* index.html */,
 				7B3BBD941DE42FCE004F9FB2 /* UIViewController+Category.h */,
 				7B3BBD951DE42FCE004F9FB2 /* UIViewController+Category.m */,
 				7B3BBD9A1DE431C3004F9FB2 /* PackViewController.h */,
@@ -175,6 +182,14 @@
 				7B3BBD921DE42FA4004F9FB2 /* XLNavgationController.m */,
 			);
 			path = xl_Nav;
+			sourceTree = "<group>";
+		};
+		7B5C67C21DE5A27F00D29334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C67C31DE5A27F00D29334 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3BBD671DE42E23004F9FB2 /* Assets.xcassets in Resources */,
+				7B5C67C11DE59EBE00D29334 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
