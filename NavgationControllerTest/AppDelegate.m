@@ -23,7 +23,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    XLNavgationController *nav = [[XLNavgationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    XLNavgationController *nav = [[XLNavgationController alloc]
+                                  initWithRootViewController:[[ViewController alloc] init]];
     [self.window setRootViewController:nav];
     
     return YES;
