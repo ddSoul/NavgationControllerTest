@@ -11,7 +11,6 @@
 
 @interface UIViewController (Category)
 
-//主控制器
 @property (nonatomic, strong) XLNavgationController *xl_navgationController;
 
 @end

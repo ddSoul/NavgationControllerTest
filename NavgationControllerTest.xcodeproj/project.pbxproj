@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B3345961DE832EC002EFC1F /* PackNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B33458F1DE832EC002EFC1F /* PackNavController.m */; };
-		7B3345971DE832EC002EFC1F /* PackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3345911DE832EC002EFC1F /* PackViewController.m */; };
+		7B2A8BC8209321F0005FC763 /* XLPackNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A8BC7209321F0005FC763 /* XLPackNavController.m */; };
+		7B2A8BCB20932266005FC763 /* XLPackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A8BCA20932266005FC763 /* XLPackViewController.m */; };
 		7B3345981DE832EC002EFC1F /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3345931DE832EC002EFC1F /* UIViewController+Category.m */; };
 		7B3345991DE832EC002EFC1F /* XLNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3345951DE832EC002EFC1F /* XLNavgationController.m */; };
 		7B3BBD5C1DE42E23004F9FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBD5B1DE42E23004F9FB2 /* main.m */; };
@@ -41,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B33458E1DE832EC002EFC1F /* PackNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackNavController.h; sourceTree = "<group>"; };
-		7B33458F1DE832EC002EFC1F /* PackNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackNavController.m; sourceTree = "<group>"; };
-		7B3345901DE832EC002EFC1F /* PackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackViewController.h; sourceTree = "<group>"; };
-		7B3345911DE832EC002EFC1F /* PackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackViewController.m; sourceTree = "<group>"; };
+		7B2A8BC6209321F0005FC763 /* XLPackNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPackNavController.h; sourceTree = "<group>"; };
+		7B2A8BC7209321F0005FC763 /* XLPackNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPackNavController.m; sourceTree = "<group>"; };
+		7B2A8BC920932266005FC763 /* XLPackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPackViewController.h; sourceTree = "<group>"; };
+		7B2A8BCA20932266005FC763 /* XLPackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPackViewController.m; sourceTree = "<group>"; };
 		7B3345921DE832EC002EFC1F /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
 		7B3345931DE832EC002EFC1F /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
 		7B3345941DE832EC002EFC1F /* XLNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNavgationController.h; sourceTree = "<group>"; };
@@ -101,14 +101,14 @@
 		7B33458D1DE832EC002EFC1F /* xl_Nav */ = {
 			isa = PBXGroup;
 			children = (
-				7B33458E1DE832EC002EFC1F /* PackNavController.h */,
-				7B33458F1DE832EC002EFC1F /* PackNavController.m */,
-				7B3345901DE832EC002EFC1F /* PackViewController.h */,
-				7B3345911DE832EC002EFC1F /* PackViewController.m */,
 				7B3345921DE832EC002EFC1F /* UIViewController+Category.h */,
 				7B3345931DE832EC002EFC1F /* UIViewController+Category.m */,
 				7B3345941DE832EC002EFC1F /* XLNavgationController.h */,
 				7B3345951DE832EC002EFC1F /* XLNavgationController.m */,
+				7B2A8BC6209321F0005FC763 /* XLPackNavController.h */,
+				7B2A8BC7209321F0005FC763 /* XLPackNavController.m */,
+				7B2A8BC920932266005FC763 /* XLPackViewController.h */,
+				7B2A8BCA20932266005FC763 /* XLPackViewController.m */,
 			);
 			path = xl_Nav;
 			sourceTree = "<group>";
@@ -324,13 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3BBD621DE42E23004F9FB2 /* ViewController.m in Sources */,
-				7B3345961DE832EC002EFC1F /* PackNavController.m in Sources */,
 				7B3BBDA51DE43779004F9FB2 /* NextViewController.m in Sources */,
 				7B3345991DE832EC002EFC1F /* XLNavgationController.m in Sources */,
 				7B3BBDA21DE43755004F9FB2 /* UIImage+Image.m in Sources */,
 				7B3345981DE832EC002EFC1F /* UIViewController+Category.m in Sources */,
+				7B2A8BC8209321F0005FC763 /* XLPackNavController.m in Sources */,
+				7B2A8BCB20932266005FC763 /* XLPackViewController.m in Sources */,
 				7B3BBDAB1DE43D9E004F9FB2 /* ThirdViewController.m in Sources */,
-				7B3345971DE832EC002EFC1F /* PackViewController.m in Sources */,
 				7B3BBD5F1DE42E23004F9FB2 /* AppDelegate.m in Sources */,
 				7B3BBD5C1DE42E23004F9FB2 /* main.m in Sources */,
 			);

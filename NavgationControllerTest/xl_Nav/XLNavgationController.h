@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-//使用的类
 @interface XLNavgationController : UINavigationController
-
 
 @end
